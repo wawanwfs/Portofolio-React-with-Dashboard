@@ -7,7 +7,11 @@ import {
   FiSun,
   FiMoon,
   FiUser,
+  FiFolder,
+  FiTool,
+  FiEdit,
   FiMail,
+  FiSettings,
   FiLogOut,
 } from "react-icons/fi";
 import { useAuth } from "../contexts/AuthContext";

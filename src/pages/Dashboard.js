@@ -1,21 +1,51 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import { useForm } from "react-hook-form";
 import { toast } from "react-hot-toast";
 import {
   FiUser,
   FiEdit3,
+  FiSave,
+  FiTrash2,
+  FiPlus,
   FiEye,
   FiEyeOff,
   FiUpload,
   FiDownload,
   FiSettings,
+  FiDroplet,
+  FiType,
+  FiLayout,
+  FiZap,
+  FiLayers,
+  FiCode,
+  FiImage,
+  FiGithub,
+  FiLinkedin,
+  FiTwitter,
+  FiInstagram,
+  FiFacebook,
+  FiYoutube,
+  FiMonitor,
+  FiGrid,
+  FiMail,
   FiGlobe,
+  FiSliders,
+  FiStar,
   FiBook,
+  FiHeart,
+  FiTrendingUp,
+  FiCalendar,
+  FiTag,
+  FiExternalLink,
+  FiAward,
   FiFolder,
   FiMessageSquare,
   FiLogOut,
+  FiX,
+  FiRotateCcw,
+  FiCheck,
   FiBriefcase,
-  FiCode,
 } from "react-icons/fi";
 import { usePortfolio } from "../App";
 import { useAuth } from "../contexts/AuthContext";

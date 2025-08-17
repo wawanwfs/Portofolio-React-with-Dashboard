@@ -3,7 +3,7 @@ import { useForm } from "react-hook-form";
 import { FiSave, FiEdit3, FiPlus, FiTrash2, FiX } from "react-icons/fi";
 
 const SkillsSection = ({ data, editMode, onToggleEdit, onSave }) => {
-  const { handleSubmit, reset, watch, setValue } = useForm();
+  const { register, handleSubmit, reset, watch, setValue } = useForm();
   const [newTechSkill, setNewTechSkill] = useState({ name: "", level: 50 });
   const [techSkills, setTechSkills] = useState(data.technical || []);
   const [softSkills, setSoftSkills] = useState(data.soft || []);
