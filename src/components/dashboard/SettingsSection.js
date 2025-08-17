@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { toast } from "react-hot-toast";
-import { motion } from "framer-motion";
 import {
   FiImage,
   FiEdit3,

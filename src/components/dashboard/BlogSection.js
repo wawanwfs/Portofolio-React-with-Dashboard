@@ -10,7 +10,7 @@ const BlogSection = ({
   onAdd,
   onDelete,
 }) => {
-  const { register, handleSubmit } = useForm();
+  const { register, handleSubmit, reset, setValue } = useForm();
   const [isLoading, setIsLoading] = React.useState(false);
 
   const onSubmitBlog = async (formData, blogId) => {
