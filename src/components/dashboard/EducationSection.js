@@ -10,7 +10,7 @@ const EducationSection = ({
   onAdd,
   onDelete,
 }) => {
-  const { register, handleSubmit, reset } = useForm();
+  const { register, handleSubmit } = useForm();
   const [isLoading, setIsLoading] = React.useState(false);
 
   const onSubmitEducation = async (formData, eduId) => {
