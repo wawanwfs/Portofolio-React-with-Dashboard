@@ -4,9 +4,7 @@ import { motion } from "framer-motion";
 import {
   FiCalendar,
   FiClock,
-  FiTag,
   FiArrowLeft,
-  FiShare2,
   FiTwitter,
   FiFacebook,
   FiLinkedin,

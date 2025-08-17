@@ -10,7 +10,7 @@ const TestimonialsSection = ({
   onAdd,
   onDelete,
 }) => {
-  const { register, handleSubmit, reset } = useForm();
+  const { register, handleSubmit } = useForm();
   const [isLoading, setIsLoading] = React.useState(false);
 
   const onSubmitTestimonial = async (formData, testimonialId) => {
